@@ -1,12 +1,12 @@
 <template>
   <div>
-      <header>
-          <img src="../assets/img/dc-logo.png" alt="">
-          <ul>
-            <li v-for="(element, index) in links" :key="index">
-                <strong><a :class="{'active': element.current}" href="#">{{element.text}}</a></strong>
-            </li>
-          </ul>
+      <header class="contenitore">
+                <img src="../assets/img/dc-logo.png" alt="">
+                <ul>
+                    <li v-for="(element, index) in links" :key="index">
+                        <strong><a :class="{'active': element.current}" href="#">{{element.text}}</a></strong>
+                    </li>
+                </ul>
       </header>
   </div>
 </template>
@@ -73,6 +73,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     @import '../assets/style/partials/header.scss';
 </style>
