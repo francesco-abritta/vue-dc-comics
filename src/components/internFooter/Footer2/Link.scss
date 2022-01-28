@@ -1,0 +1,29 @@
+.link{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+}
+
+.link img{
+    height: 500px;
+}
+
+.elenchi{
+    display: flex;
+}
+
+.ulFooter{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.ulFooter li{
+    padding: 0;
+    margin: 2px 0;
+    color: grey;
+}
+
