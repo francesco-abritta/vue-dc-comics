@@ -27,6 +27,11 @@ a{
     padding: 38px 0;
 }
 
+a:hover{
+    color: #117CEC;
+    border-bottom: 5px solid #117CEC;
+}
+
 .active{
     color: #117CEC;
     border-bottom: 5px solid #117CEC;
