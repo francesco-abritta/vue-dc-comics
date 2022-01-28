@@ -45,7 +45,7 @@ export default {
             {
                 text: "COLLECTIBILES",
                 url: "#",
-                current: true,
+                current: false,
             },
             {
                 text: "VIDEOS",

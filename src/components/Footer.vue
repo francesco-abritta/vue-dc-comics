@@ -2,10 +2,6 @@
     <div>
         <div class="contenitore footer1">
             <Merchandise />
-            <Merchandise />
-            <Merchandise />
-            <Merchandise />
-            <Merchandise />
         </div>
 
         <div class="contenitore footer2">
@@ -39,8 +35,6 @@ export default {
 <style>
     .footer1{
         background-color: #117CEC;
-        display: flex;
-        justify-content: space-between;
     }
 
     .footer2{

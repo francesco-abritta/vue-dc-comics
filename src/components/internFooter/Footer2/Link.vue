@@ -5,49 +5,25 @@
                 <div class="col1">
                     <ul class="ulFooter">
                         DC COMICS
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
+                        <li v-for="(elemento, indice) in links1" :key="indice">{{elemento.text}}</li>
                     </ul>
                     <ul class="ulFooter">
                         SHOP
-                        <li>ciao</li>
-                        <li>ciao</li>
+                        <li v-for="(elemento, indice) in links2" :key="indice">{{elemento.text}}</li>
                     </ul>
                 </div>
                 
                 <div class="col2">
                     <ul class="ulFooter">
                         DC
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciaoooooooooooooooooooo</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
+                        <li v-for="(elemento, indice) in links3" :key="indice">{{elemento.text}}</li>
                     </ul>
                 </div>
 
                 <div class="col3">
                     <ul class="ulFooter">
                         SITES
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
-                        <li>ciao</li>
+                        <li v-for="(elemento, indice) in links4" :key="indice">{{elemento.text}}</li>
                     </ul>
                 </div>
                     
@@ -60,7 +36,98 @@
 
 <script>
 export default {
-    name: 'Link'
+    name: 'Link',
+    data() {
+      return{
+        links1: [
+          {
+            text:'Characters'
+          },
+          {
+            text:'Comics'
+          },
+          {
+            text:'Movies'
+          },
+          {
+            text:'TV'
+          },
+          {
+            text:'Games'
+          },
+          {
+            text:'Videos'
+          },
+          {
+            text:'News'
+          },
+          
+        ],
+        links2: [
+          {
+            text:'Shop Dc'
+          },
+          {
+            text:'Shop Dc Collectibiles'
+          },
+          
+        ],
+        links3: [
+          {
+            text:'Terms of use'
+          },
+          {
+            text:'Privacy policy'
+          },
+          {
+            text:'Ad choises'
+          },
+          {
+            text:'Advertising'
+          },
+          {
+            text:'Jobs'
+          },
+          {
+            text:'Subscription'
+          },
+          {
+            text:'Talent Workshop'
+          },
+          {
+            text:'CPSC Certificates'
+          },
+          {
+            text:'Ratings'
+          },
+          {
+            text:'Shop Help'
+          },
+          {
+            text:'Contact us'
+          },
+          
+        ],
+        links4: [
+          {
+            text:'DC'
+          },
+          {
+            text:'MAD Magazine'
+          },
+          {
+            text:'DC Kids'
+          },
+          {
+            text:'DC Universe'
+          },
+          {
+            text:'DC Power Visa'
+          },
+          
+        ]
+    }
+  }
 }
 </script>
 

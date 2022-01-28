@@ -6,6 +6,7 @@
     height: 120px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 img{
@@ -16,6 +17,9 @@ section{
     display: flex;
     align-items: center;
     font-size: 15px;
-    width: 100%;
     color: white;
+}
+
+section div{
+    font-size: 10px;
 }
